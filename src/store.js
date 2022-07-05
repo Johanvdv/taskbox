@@ -1,6 +1,10 @@
+// import {
+//   defineStore
+// } from 'pinia';
+
 import {
-  defineStore
-} from 'pinia';
+  createStore
+} from 'vuex'
 
 const defaultTasks = [{
     id: '1',
@@ -24,7 +28,7 @@ const defaultTasks = [{
   },
 ];
 
-export default defineStore({
+export default createStore({
   state: {
     tasks: defaultTasks,
     status: 'idle',
