@@ -1,6 +1,6 @@
 import PureTaskList from './PureTaskList.vue';
 
-import * as TaskStories from './Task.stories';
+import * as TaskStories from './Task.stories.js';
 
 export default {
   component: PureTaskList,
