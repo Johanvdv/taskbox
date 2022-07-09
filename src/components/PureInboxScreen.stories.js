@@ -14,7 +14,7 @@ import PureInboxScreen from './PureInboxScreen.vue';
 import {
   action
 } from '@storybook/addon-actions';
-import * as TaskListStories from './PureTaskList.stories';
+import * as TaskListStories from './PureTaskList.stories.js';
 
 const store = createStore({
   state: {
